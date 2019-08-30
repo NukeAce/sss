@@ -9,7 +9,7 @@ if(isset($_POST["id"]))
  $query = "DELETE FROM suppliers WHERE id = '".$_POST["id"]."'";
  if(mysqli_query($connect, $query))
  {
-  echo 'Supplier Deleted';
+  echo 'Suppliersss Deleted';
  }
 }
 ?>
